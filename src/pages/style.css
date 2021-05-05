@@ -1,0 +1,11 @@
+.special {
+	height: 1000px;
+	@media screen and (max-width: 768px) {
+	padding: 50px;
+	}
+}
+
+.container {
+	display:flex;
+	justify-content: center;
+}
