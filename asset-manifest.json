@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/site-cspdd/static/css/main.08369424.chunk.css",
-    "main.js": "/site-cspdd/static/js/main.b7132f70.chunk.js",
-    "main.js.map": "/site-cspdd/static/js/main.b7132f70.chunk.js.map",
+    "main.js": "/site-cspdd/static/js/main.da2e88fb.chunk.js",
+    "main.js.map": "/site-cspdd/static/js/main.da2e88fb.chunk.js.map",
     "runtime-main.js": "/site-cspdd/static/js/runtime-main.aaa320d7.js",
     "runtime-main.js.map": "/site-cspdd/static/js/runtime-main.aaa320d7.js.map",
     "static/js/2.4e0c9e00.chunk.js": "/site-cspdd/static/js/2.4e0c9e00.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/ecole.jpg": "/site-cspdd/static/media/ecole.7152b27d.jpg",
     "static/media/forum.jpg": "/site-cspdd/static/media/forum.3e1474b6.jpg",
     "static/media/goals.jpg": "/site-cspdd/static/media/goals.f832bec7.jpg",
-    "static/media/logo.93270e02.jpg": "/site-cspdd/static/media/logo.93270e02.jpg",
+    "static/media/logo.836ca511.png": "/site-cspdd/static/media/logo.836ca511.png",
     "static/media/lotfi.jpg": "/site-cspdd/static/media/lotfi.23ce883c.jpg",
     "static/media/odd.a25ba1a9.png": "/site-cspdd/static/media/odd.a25ba1a9.png",
     "static/media/seminaire.jpg": "/site-cspdd/static/media/seminaire.e1e96f30.jpg",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.aaa320d7.js",
     "static/js/2.4e0c9e00.chunk.js",
     "static/css/main.08369424.chunk.css",
-    "static/js/main.b7132f70.chunk.js"
+    "static/js/main.da2e88fb.chunk.js"
   ]
 }
