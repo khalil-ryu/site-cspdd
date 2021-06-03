@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.2329d7b0.chunk.css",
-    "main.js": "/static/js/main.0d4c1ec2.chunk.js",
-    "main.js.map": "/static/js/main.0d4c1ec2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.993b4b4e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.993b4b4e.js.map",
+    "main.js": "/static/js/main.71f5f8f9.chunk.js",
+    "main.js.map": "/static/js/main.71f5f8f9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.08ac5bd1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.08ac5bd1.js.map",
     "static/css/2.cf789e49.chunk.css": "/static/css/2.cf789e49.chunk.css",
-    "static/js/2.ff58aeda.chunk.js": "/static/js/2.ff58aeda.chunk.js",
-    "static/js/2.ff58aeda.chunk.js.map": "/static/js/2.ff58aeda.chunk.js.map",
-    "static/js/3.bd1c27aa.chunk.js": "/static/js/3.bd1c27aa.chunk.js",
-    "static/js/3.bd1c27aa.chunk.js.map": "/static/js/3.bd1c27aa.chunk.js.map",
+    "static/js/2.a64601f9.chunk.js": "/static/js/2.a64601f9.chunk.js",
+    "static/js/2.a64601f9.chunk.js.map": "/static/js/2.a64601f9.chunk.js.map",
+    "static/js/3.32315fab.chunk.js": "/static/js/3.32315fab.chunk.js",
+    "static/js/3.32315fab.chunk.js.map": "/static/js/3.32315fab.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cf789e49.chunk.css.map": "/static/css/2.cf789e49.chunk.css.map",
     "static/css/main.2329d7b0.chunk.css.map": "/static/css/main.2329d7b0.chunk.css.map",
-    "static/js/2.ff58aeda.chunk.js.LICENSE.txt": "/static/js/2.ff58aeda.chunk.js.LICENSE.txt",
+    "static/js/2.a64601f9.chunk.js.LICENSE.txt": "/static/js/2.a64601f9.chunk.js.LICENSE.txt",
     "static/media/Capture.PNG": "/static/media/Capture.05992bad.PNG",
+    "static/media/annonce.jpg": "/static/media/annonce.eda01e3c.jpg",
+    "static/media/dapeau.29232796.jpg": "/static/media/dapeau.29232796.jpg",
     "static/media/ecole.jpg": "/static/media/ecole.7152b27d.jpg",
     "static/media/forum.jpg": "/static/media/forum.3e1474b6.jpg",
     "static/media/goals.jpg": "/static/media/goals.f832bec7.jpg",
@@ -24,10 +26,10 @@
     "static/media/video.1c6b32bd.mkv": "/static/media/video.1c6b32bd.mkv"
   },
   "entrypoints": [
-    "static/js/runtime-main.993b4b4e.js",
+    "static/js/runtime-main.08ac5bd1.js",
     "static/css/2.cf789e49.chunk.css",
-    "static/js/2.ff58aeda.chunk.js",
+    "static/js/2.a64601f9.chunk.js",
     "static/css/main.2329d7b0.chunk.css",
-    "static/js/main.0d4c1ec2.chunk.js"
+    "static/js/main.71f5f8f9.chunk.js"
   ]
 }
