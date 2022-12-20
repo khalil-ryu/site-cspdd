@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.2329d7b0.chunk.css",
-    "main.js": "/static/js/main.12414ba9.chunk.js",
-    "main.js.map": "/static/js/main.12414ba9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.88b493f6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.88b493f6.js.map",
+    "main.js": "/static/js/main.2f418856.chunk.js",
+    "main.js.map": "/static/js/main.2f418856.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.76b9b64a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.76b9b64a.js.map",
     "static/css/2.cf789e49.chunk.css": "/static/css/2.cf789e49.chunk.css",
-    "static/js/2.dfc693ad.chunk.js": "/static/js/2.dfc693ad.chunk.js",
-    "static/js/2.dfc693ad.chunk.js.map": "/static/js/2.dfc693ad.chunk.js.map",
-    "static/js/3.ca34b625.chunk.js": "/static/js/3.ca34b625.chunk.js",
-    "static/js/3.ca34b625.chunk.js.map": "/static/js/3.ca34b625.chunk.js.map",
+    "static/js/2.b9c97483.chunk.js": "/static/js/2.b9c97483.chunk.js",
+    "static/js/2.b9c97483.chunk.js.map": "/static/js/2.b9c97483.chunk.js.map",
+    "static/js/3.40a737b5.chunk.js": "/static/js/3.40a737b5.chunk.js",
+    "static/js/3.40a737b5.chunk.js.map": "/static/js/3.40a737b5.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cf789e49.chunk.css.map": "/static/css/2.cf789e49.chunk.css.map",
     "static/css/main.2329d7b0.chunk.css.map": "/static/css/main.2329d7b0.chunk.css.map",
-    "static/js/2.dfc693ad.chunk.js.LICENSE.txt": "/static/js/2.dfc693ad.chunk.js.LICENSE.txt",
+    "static/js/2.b9c97483.chunk.js.LICENSE.txt": "/static/js/2.b9c97483.chunk.js.LICENSE.txt",
     "static/media/Capture.PNG": "/static/media/Capture.05992bad.PNG",
     "static/media/annonce.jpg": "/static/media/annonce.eda01e3c.jpg",
     "static/media/annonceRecrutement.ebd5f2a7.jpg": "/static/media/annonceRecrutement.ebd5f2a7.jpg",
@@ -24,14 +24,15 @@
     "static/media/goals.jpg": "/static/media/goals.f832bec7.jpg",
     "static/media/logo.23cb403b.png": "/static/media/logo.23cb403b.png",
     "static/media/lotfi.jpg": "/static/media/lotfi.23ce883c.jpg",
+    "static/media/project2.jpg": "/static/media/project2.f613b5ce.jpg",
     "static/media/seminaire.jpg": "/static/media/seminaire.e1e96f30.jpg",
     "static/media/video.1c6b32bd.mkv": "/static/media/video.1c6b32bd.mkv"
   },
   "entrypoints": [
-    "static/js/runtime-main.88b493f6.js",
+    "static/js/runtime-main.76b9b64a.js",
     "static/css/2.cf789e49.chunk.css",
-    "static/js/2.dfc693ad.chunk.js",
+    "static/js/2.b9c97483.chunk.js",
     "static/css/main.2329d7b0.chunk.css",
-    "static/js/main.12414ba9.chunk.js"
+    "static/js/main.2f418856.chunk.js"
   ]
 }
