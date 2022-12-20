@@ -5,6 +5,7 @@ import {SidebarContainer,
 		SidebarWrapper,
 		SidebarMenu,
 		SidebarLink,
+		SidebarR,
 		SidebarGal,
 		SideBtnWrap,
 		SidebarRoute,
@@ -17,10 +18,10 @@ export const Sidebar = ({toggle, isOpen}) => {
 			</Icon>
 			<SidebarWrapper>
 				<SidebarMenu>
-					<SidebarLink to="acceuil" onClick= {toggle}>Acceuil</SidebarLink>
-					<SidebarLink to="about" onClick= {toggle}>Activites</SidebarLink>
-					<SidebarLink to="discover" onClick= {toggle}>Nos Projets</SidebarLink>
-					{/*<SidebarLink to="services" onClick= {toggle}>Publications</SidebarLink>*/}
+					<SidebarR to="./" onClick= {toggle}>Acceuil</SidebarR>
+					<SidebarR to="/Activités" onClick= {toggle}>Activités</SidebarR>
+					<SidebarR to="/NosProjets" onClick= {toggle}>Nos Projets</SidebarR>
+					<SidebarR to="/Articles" onClick= {toggle}>Articles</SidebarR>
 					<SidebarGal to="/galeries" onClick= {toggle}>Galeries</SidebarGal>
 				</SidebarMenu>
 				<SideBtnWrap>

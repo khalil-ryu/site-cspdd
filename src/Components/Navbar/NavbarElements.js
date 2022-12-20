@@ -7,8 +7,7 @@ import {Link as LinkS} from 'react-scroll'; //used for scroll in one page
 	
 export const Nav = styled.nav`
 	background: #0063B2FF;
-	height: 80px;
-    margin-top: -80px; 
+	height: 60px;
  	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -113,6 +112,24 @@ export const NavLinks = styled(LinkS)`
 	}
 
 `
+export const NavLinksRoute = styled(LinkR)`
+	color: #fff;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding: 0 1rem;
+	height: 100%;
+	cursor: pointer;	
+
+	&:hover {
+		background-color: #9CC3D5FF;
+		color: #0063B2FF;
+    	border-radius: 4px;
+   		transition: all 0.2s ease-out;
+
+	}
+
+`
 export const NavGal = styled(LinkR)`
 	color: #fff;
 	display: flex;
@@ -122,8 +139,12 @@ export const NavGal = styled(LinkR)`
 	height: 100%;
 	cursor: pointer;	
 
-	&.active {
-		border-bottom: 3px solid #01bf71;
+	&:hover {
+		background-color: #9CC3D5FF;
+		color: #0063B2FF;
+    	border-radius: 4px;
+   		transition: all 0.2s ease-out;
+
 	}
 
 `

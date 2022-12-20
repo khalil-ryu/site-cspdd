@@ -1,6 +1,6 @@
 {
   "name": "cspdd",
-  "homepage": "http://khalil-ryu.github.io/site-cspdd",
+  "homepage": "https://cspdd.tn",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,6 +19,7 @@
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
+    "react-image-gallery": "^1.1.1",
     "react-photo-gallery": "^8.0.0",
     "react-photoswipe-gallery": "^1.3.6",
     "react-player": "^2.9.0",

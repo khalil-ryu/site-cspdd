@@ -102,6 +102,10 @@ export const Img = styled.img`
 		height: 20px;
 	
 	}
+	@media screen and (max-width: 300px ) {
+		height: 35px;
+	
+	}
 
 
 `

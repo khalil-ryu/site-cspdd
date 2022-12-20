@@ -1,7 +1,8 @@
 import React from 'react';
 import {animateScroll as scroll} from 'react-scroll';
 import {FaFacebook, FaYoutube, FaTwitter, FaLinkedin} from 'react-icons/fa';
-import Logo from './logo.jpg';
+import Logo from './logo.png';
+import drapeau from './dapeau.jpg'
 import {FooterContainer,
 	FooterWrap, 
 	FooterLinksContainer, 
@@ -39,21 +40,24 @@ const Footer = () => {
 						<FooterLinkItems>
 							<FooterLinkTitle>Nos Partenaires </FooterLinkTitle>
 								<ImgWrapper style= {{'display': 'flex',  'justify-content': 'space-between', 'padding-right': '100px'}} >
-									<a href='https://www.facebook.com/EcoPactLacBizerte' target='_blank'>
-										<Img  src="https://scontent.ftun7-1.fna.fbcdn.net/v/t1.6435-9/48366270_923433767845402_4537922592228507648_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=973b4a&_nc_ohc=lOq-77pGAnAAX-jq2qK&_nc_ht=scontent.ftun7-1.fna&oh=f840846adfe7a4a2d99f2ea1e59a5566&oe=60AC655C"/>
-									</a>
+									<Img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/langfr-225px-Flag_of_Tunisia.svg.png"/>
 									<a href='https://europa.eu/european-union/index_fr' target ='_blank'>
-										<Img  src="https://www.fiacat.org/images/categories/logo-union-europeenne.jpg"/>
+										<Img  src={drapeau}/>
 									</a>
+									<a href='https://www.facebook.com/MinALEnv/?ref=page_internal' target='_blank'>
+										<Img width='60' height='40' src='https://github.com/khalil-ryu/cspdd-images/blob/master/ministere.jpg?raw=true'/>
+									</a>
+									<a href='https://www.facebook.com/EcoPactLacBizerte' target='_blank'>
+										<Img  src="https://github.com/khalil-ryu/cspdd-images/blob/master/ecopact.jpg?raw=true"/>
+									</a>
+									
 									<a href='https://www.ebrd.com/home' target= '_blank'>
 										<Img  src="https://www.econostrum.info/photo/art/default/49096171-38301007.jpg?v=1597747419"/>
 									</a>
 									<a href='https://www.eib.org/fr/index.htm' target='_blank'>	
-										<Img  src="http://ficom-conseil.com/wp-content/uploads/2017/03/86ab85dc76588e656139a033279b772c654fe4ef.jpeg"/>
+										<Img  src="https://www.pouvoirsafrique.com/wp-content/uploads/2016/10/BEI-logo-UE.jpg"/>
 									</a>
-									<a href='https://www.facebook.com/MinALEnv/?ref=page_internal' target='_blank'>
-										<Img width='60' height='40' src='https://scontent.ftun12-1.fna.fbcdn.net/v/t1.6435-9/119996752_3259710447439895_40420416110385768_n.png?_nc_cat=108&ccb=1-3&_nc_sid=973b4a&_nc_ohc=CVvRzfSoVVQAX8wnJUA&_nc_ht=scontent.ftun12-1.fna&oh=5d7b6f2ef711d4fa08adc000a51a01b5&oe=60B64147'/>
-									</a>
+									
 								</ImgWrapper>
 						</FooterLinkItems>
 					</FooterLinkWrapper>

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
-import Logo from './logo.jpg';
+import Logo from './logo.png';
 
 import {animateScroll as scroll} from 'react-scroll';
 import {Nav, 
@@ -12,6 +12,7 @@ import {Nav,
 	NavMenu, 
 	NavItem, 
 	NavLinks,
+	NavLinksRoute,
 	NavGal,
 	NavBtn,
 	NavBtnLink} from './NavbarElements'
@@ -47,32 +48,32 @@ const Navbar = ({toggle}) => {
 					</MobileIcon>
 					<NavMenu>
 						<NavItem >
-							<NavLinks to='acceuil'
-							smooth= {true} duration= {500} spy={true} exact='true' offset={-80}>
+							<NavLinksRoute to='./'
+							smooth= {true} duration= {500} spy={true} exact='true'>
 							Acceuil
-							</NavLinks>
+							</NavLinksRoute>
 						</NavItem>
 						<NavItem >
-							<NavLinks to='about'
-							smooth= {true} duration= {500} spy={true} exact='true' offset={-80}>
-							Activites
-							</NavLinks>
+							<NavLinksRoute to='/Activités'
+							smooth= {true} duration= {500} spy={true} exact='true' >
+							Activités
+							</NavLinksRoute>
 						</NavItem>
 						<NavItem>
-							<NavLinks to='discover'
-							smooth= {true} duration= {500} spy={true} exact='true' offset={-80}>
+							<NavLinksRoute to='/NosProjets'
+							smooth= {true} duration= {500} spy={true} exact='true' >
 							Nos Projets
-							</NavLinks>
+							</NavLinksRoute>
 						</NavItem>
-						{/*<NavItem>
-							<NavLinks to='services'
-							smooth= {true} duration= {500} spy={true} exact='true' offset={-80}>
-							Publications
-							</NavLinks>
-						</NavItem>*/}
+						<NavItem>
+							<NavLinksRoute to='/Articles'
+							smooth= {true} duration= {500} spy={true} exact='true'>
+							Articles
+							</NavLinksRoute>
+						</NavItem>
 						<NavItem>
 							<NavGal to='/galeries'
-							smooth= {true} duration= {500} spy={true} exact='true' offset={-80}>
+							smooth= {true} duration= {500} spy={true} exact='true' >
 							Galeries</NavGal>
 						</NavItem>
 					</NavMenu>
