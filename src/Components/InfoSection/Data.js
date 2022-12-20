@@ -97,7 +97,24 @@ export const homeObjTwo = {
 	needed: false,
 	link: 'https://www.facebook.com/De-mon-%C3%A9cole-%C3%A0-ma-ville-%C3%A0-mon-lac-et-%C3%A0-ma-m%C3%A9diterran%C3%A9e-101988748682301'
 }
-
+export const projectTwo = {
+	id: 'NosProjets',
+	lightBg: true,
+	lightText: false,
+	lightTextDesc: false,
+	topLine: 'Nos Projets',
+	headline: 'Voler De Ses Propres Ailes',
+	description: "Le Centre Stratégique pour la Promotion du Développement Durable a le plaisir de vous informer que son projet « Voler de ses propres ailes » est retenu suite à l’appel à candidature « Renforcement de la société civile émergente en Tunisie-  Fonds réactif et d’opportunités Mai 2022 », mis en œuvre par un consortium formé par Oxfam et ses partenaires. Le présent projet est financé par l’Union Européenne avec un montant de 48 180,000 TND.Il vise le renforcement de capacités de 4 associations tunisiennes dans la région de Ben Arous qui ont survécu aux conditions difficiles imposées par la pandémie du Covid-19 ou qui ont été récemment constituées et dont la viabilité est réellement menacée. Il s’étale sur cinq mois et propose un programme de formation dans différents domaines notamment la restructuration et la réorganisation des associations, la pollution et les problèmes environnementaux de la région de Ben Arous, la démocratie participative, l’économie sociale et solidaire, le financement et les procédures légales et administratives. Des visites sur le terrain sont également prévues.",
+	buttonLabel: 'Savoir Plus',
+	imgStart: true,
+	img: require('../../images/project2.jpg').default,
+	alt: 'hello',
+	dark: false,
+	primary: false,
+	darkText: true,
+	needed: false,
+	link: 'https://www.facebook.com/De-mon-%C3%A9cole-%C3%A0-ma-ville-%C3%A0-mon-lac-et-%C3%A0-ma-m%C3%A9diterran%C3%A9e-101988748682301'
+}
 export const homeObjTwo2 = {
 	id: 'NosProjets',
 	lightBg: true,

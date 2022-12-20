@@ -4,7 +4,7 @@ import Navbar	 from '../Components/Navbar/index';
 import InfoSection2	 from '../Components/InfoSection/index2';
 import InfoSection3	 from '../Components/InfoSection/index3';
 
-import {homeObjTwo, descriptionProjet, descriptionProjet2} from '../Components/InfoSection/Data'
+import {homeObjTwo, projectTwo, descriptionProjet, descriptionProjet2} from '../Components/InfoSection/Data'
 import Footer	 from '../Components/Footer/index';
 import annonce from './annonce.jpg';
 import annonceRecrutement from './annonceRecrutement.jpg';
@@ -49,17 +49,15 @@ const NosProjets = () => {
 
 	return(	
 		<>
-		<Sidebar isOpen= {isOpen} toggle= {toggle}/>
-		<Navbar toggle= {toggle}/>
+		<Sidebar isOpen = {isOpen} toggle= {toggle}/>
+		<Navbar toggle = {toggle}/>
+		<InfoSection2 {...projectTwo}/>
 		<InfoSection2 {...homeObjTwo}/>
-		
 		<ServicesCard >
 			<ServicesIcon src={annonceRecrutement}/>
-
 		</ServicesCard>
 		<ServicesCard >
 			<ServicesIcon src={annonce}/>
-
 		</ServicesCard>
 		
 		<Description lightBg = {true} id = {NosProjets} lightText = {false} darkText={true}/>
