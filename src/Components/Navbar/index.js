@@ -72,10 +72,17 @@ const Navbar = ({toggle}) => {
 							</NavLinksRoute>
 						</NavItem>
 						<NavItem>
+							<NavLinksRoute to='/Annonces'
+							smooth= {true} duration= {500} spy={true} exact='true'>
+							Annonces
+							</NavLinksRoute>
+						</NavItem>
+						<NavItem>
 							<NavGal to='/galeries'
 							smooth= {true} duration= {500} spy={true} exact='true' >
 							Galeries</NavGal>
 						</NavItem>
+						
 					</NavMenu>
 					<NavBtn>
 						<NavBtnLink to="/contact">Nous Contacter</NavBtnLink>

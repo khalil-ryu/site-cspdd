@@ -22,6 +22,7 @@ export const Sidebar = ({toggle, isOpen}) => {
 					<SidebarR to="/Activités" onClick= {toggle}>Activités</SidebarR>
 					<SidebarR to="/NosProjets" onClick= {toggle}>Nos Projets</SidebarR>
 					<SidebarR to="/Articles" onClick= {toggle}>Articles</SidebarR>
+					<SidebarR to="/Annonces" onClick= {toggle}>Annonces</SidebarR>
 					<SidebarGal to="/galeries" onClick= {toggle}>Galeries</SidebarGal>
 				</SidebarMenu>
 				<SideBtnWrap>

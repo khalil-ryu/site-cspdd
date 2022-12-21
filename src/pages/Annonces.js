@@ -1,17 +1,21 @@
 import React, {useState} from 'react';
 import {Sidebar} from '../Components/Sidebar/index';
 import Navbar	 from '../Components/Navbar/index';
-import InfoSection2	 from '../Components/InfoSection/index2';
-import InfoSection3	 from '../Components/InfoSection/index3';
-
-import {homeObjTwo, projectTwo, descriptionProjet, descriptionProjet2} from '../Components/InfoSection/Data'
 import Footer	 from '../Components/Footer/index';
-import annonce from './annonce.jpg';
 import annonceRecrutement from './annonceRecrutement.jpg';
+import first from '../images/1.jpg';
+import first_1 from '../images/1-1.jpg';
+import second from '../images/2.jpg';
+
+import second_2 from '../images/2-2.jpg';
+
+import third from '../images/3.jpg';
+
 
 import styled from 'styled-components';
-import Description from '../Components/Description/projet';
-
+import {
+	ColoredHeading
+} from '../Components/InfoSection/InfoElements';
 export const ServicesCard = styled.div`
 	background:  #9CC3D5FF;
 	display: flex;
@@ -38,7 +42,7 @@ export const ServicesIcon = styled.img`
 	}
 `
 
-const NosProjets = () => {
+const Annonces = () => {
 	const[isOpen, setIsOpen] = useState(false);
 
 	const toggle = () => {
@@ -51,17 +55,28 @@ const NosProjets = () => {
 		<>
 		<Sidebar isOpen = {isOpen} toggle= {toggle}/>
 		<Navbar toggle = {toggle}/>
-		<InfoSection2 {...projectTwo}/>
-		<InfoSection2 {...homeObjTwo}/>
-		<ServicesCard >
-			<ServicesIcon src={annonce}/>
+        
+        <ServicesCard >
+			<ServicesIcon src={third}/>
 		</ServicesCard>
-		
-		<Description lightBg = {true} id = {NosProjets} lightText = {false} darkText={true}/>
-
+		<ServicesCard >
+			<ServicesIcon src={second}/>
+		</ServicesCard>
+        <ServicesCard >
+			<ServicesIcon src={second_2}/>
+		</ServicesCard>
+        <ServicesCard >
+			<ServicesIcon src={first}/>
+		</ServicesCard>
+		<ServicesCard >
+			<ServicesIcon src={first_1}/>
+		</ServicesCard>
+        <ServicesCard >
+			<ServicesIcon src={annonceRecrutement}/>
+		</ServicesCard>
 		<Footer/>
 		</>
 		)
 }
 
-export default NosProjets;
+export default Annonces;

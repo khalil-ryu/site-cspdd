@@ -164,6 +164,17 @@ export const Heading = styled.h1`
 		font-size: 20px;
 	}
 `
+export const ColoredHeading = styled.h1`
+	margin-bottom: 24px;
+	font-size: 40px;
+	line-height: 1.1;
+	font-weight: 600;
+	color: ${({ lightText}) => (lightText ? '#f7f8fa' : '#010606')}
+	background: #9CC3D5FF;
+	@media screen and (max-width: 576px) {
+		font-size: 20px;
+	}
+`
 
 export const Heading2 = styled.h1`
 	margin-bottom: 24px;
