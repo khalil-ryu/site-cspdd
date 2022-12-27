@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
 import Logo from './logo.png';
-
+import Dropdown from './dropdown';
 import {animateScroll as scroll} from 'react-scroll';
 import {Nav, 
 	NavbarContainer, 
@@ -77,10 +77,9 @@ const Navbar = ({toggle}) => {
 							Annonces
 							</NavLinksRoute>
 						</NavItem>
-						<NavItem>
-							<NavGal to='/galeries'
-							smooth= {true} duration= {500} spy={true} exact='true' >
-							Galeries</NavGal>
+						<NavItem style={{paddingTop: "30.5px"}}>
+								<Dropdown/>
+							
 						</NavItem>
 						
 					</NavMenu>
