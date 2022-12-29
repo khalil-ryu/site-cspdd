@@ -15,6 +15,7 @@ import ScrollToTop  from './pages/scrollTopTop';
 import GaleriesPage from './pages/galeries';
 import PicturesPage from './pages/pictures1';
 
+import PicturesPage2 from './pages/pictures2';
 
 class App extends Component {
 
@@ -32,8 +33,8 @@ class App extends Component {
           <Route  path='/Activités' component = {Activites} exact />
           <Route  path='/Articles' component = {Articles} exact />
           <Route  path='/Galeries' component= {GaleriesPage} exact/>
-          <Route  path='/Pictures1' component= {PicturesPage} exact/>
-          {/* <Route  path='/Pictures1' component= {PicturesPage} exact/> */}
+          <Route  path='/images1' component= {PicturesPage} exact/>
+          <Route  path='/images2' component= {PicturesPage2} exact/>
 
         </Switch>
       </Router>

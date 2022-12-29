@@ -1,41 +1,17 @@
 import {React,useState} from 'react'
 import  './Pictures.css'
-import carre1 from '../images/carre1.png'
-import x from '../images/1.jpeg'
-import xx from '../images/2.jpg'
-import xxx from '../images/3.jpeg'
-import xxxx from '../images/4.webp'
-import xxxxx from '../images/5.webp'
-import laptop from '../images/laptop.jpg'
+
 import CloseIcon from '@mui/icons-material/Close';
 const Pictures2 = () => {
     //storing pictures 
     let data=[
-        {
-            imgSrc:x
-        },  
-        {
-            imgSrc:carre1
-        },  
-        {
-            imgSrc:xx
-        }, 
-        {
-            imgSrc:x
-        },
-        {
-            imgSrc:xxx
-        },
-        {
-            imgSrc:xxxx
-        },
-        {
-            imgSrc:xxxxx
-        },
-        {
-            imgSrc:laptop
-        }
     ]
+
+    for (let i = 1; i < 119; i++) {
+        let photo = {};
+        photo["imgSrc"] = `https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/${i}.jpg?raw=true`
+        data.unshift(photo);
+    }
     const [model,setModel]=useState(false)
     const [tempimgSrc,setTempimgSrc]=useState('')
     const getImg =(imgSrc)=>{
