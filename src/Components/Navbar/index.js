@@ -3,6 +3,8 @@ import {FaBars} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
 import Logo from './logo.png';
 import Dropdown from './dropdown';
+import Dropdown2 from './dropdown2';
+
 import {animateScroll as scroll} from 'react-scroll';
 import {Nav, 
 	NavbarContainer, 
@@ -62,7 +64,7 @@ const Navbar = ({toggle}) => {
 						<NavItem>
 							<NavLinksRoute to='/NosProjets'
 							smooth= {true} duration= {500} spy={true} exact='true' >
-							Nos Projets
+							<Dropdown2/>
 							</NavLinksRoute>
 						</NavItem>
 						<NavItem>

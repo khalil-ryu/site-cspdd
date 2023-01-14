@@ -51,7 +51,7 @@ const NosProjets = () => {
 		<>
 		<Sidebar isOpen = {isOpen} toggle= {toggle}/>
 		<Navbar toggle = {toggle}/>
-		<InfoSection2 {...projectTwo}/>
+		{/* <InfoSection2 {...projectTwo}/> */}
 		<InfoSection2 {...homeObjTwo}/>
 		<ServicesCard >
 			<ServicesIcon src={annonce}/>
