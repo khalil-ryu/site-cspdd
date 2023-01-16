@@ -32,6 +32,23 @@ export const InfoWrapper = styled.div`
 		
 	}
 `
+export const ProjectTwoInfoWrapper = styled.div`
+	z-index: 1;
+	height: 700px;
+	width: 100%;
+	max-width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	justify-content: center;
+	@media screen and (max-width:768px ) {
+		height: 1100px;
+	}
+	@media screen and (max-width:576px ) {
+		height: 900px;
+		
+	}
+`
 export const InfoWrapper3 = styled.div`
 	display: grid;
 	z-index: 1;
@@ -164,6 +181,7 @@ export const Heading = styled.h1`
 		font-size: 20px;
 	}
 `
+
 export const ColoredHeading = styled.h1`
 	margin-bottom: 24px;
 	font-size: 40px;
@@ -194,6 +212,23 @@ export const Subtitle = styled.p`
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 24px;
+	text-align: justify;
+	color: ${({darkText}) => (darkText ? '#010606' : '#fff')}
+	@media screen and (max-width: 576px) {
+		font-size: 18px;
+		text-align: center;
+		
+
+
+
+	}	
+`
+export const Subtitle1 = styled.p`
+	max-width: 100%;
+	margin-bottom: 35px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
 	text-align: justify;
 	color: ${({darkText}) => (darkText ? '#010606' : '#fff')}
 	@media screen and (max-width: 576px) {

@@ -20,14 +20,13 @@ export const Sidebar = ({toggle, isOpen}) => {
 				<SidebarMenu>
 					<SidebarR to="./" onClick= {toggle}>Acceuil</SidebarR>
 					<SidebarR to="/Activités" onClick= {toggle}>Activités</SidebarR>
-					<SidebarR to="/NosProjets" onClick= {toggle}>Nos Projets</SidebarR>
+					<SidebarR to="/NosProjets" onClick= {toggle}>De mon école ...</SidebarR>
+					<SidebarR to="/Projet2" onClick= {toggle}>Voler de ses ...</SidebarR>
 					<SidebarR to="/Articles" onClick= {toggle}>Articles</SidebarR>
 					<SidebarR to="/Annonces" onClick= {toggle}>Annonces</SidebarR>
 					<SidebarGal to="/galeries" onClick= {toggle}>Galeries</SidebarGal>
 				</SidebarMenu>
-				<SideBtnWrap>
-					<SidebarRoute to="/contact">Contacter Nous</SidebarRoute>
-				</SideBtnWrap>
+				
 			</SidebarWrapper>
 		</SidebarContainer>
 		)

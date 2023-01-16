@@ -211,7 +211,7 @@ export const activites1 = {
 	lightTextDesc: false,
 	topLine: 'PHASE DE MISE EN ŒUVRE DES ACTIVITES',
 	headline: "1ére réunion",
-	description: "Dans le cadre du projet « Voler de ses propres ailes », nous avons organisé notre 1ère réunion avec 3 des associations sélectionnées pour communiquer de plus près et leur présenter notre programme de formation et de soutien ainsi que les procédures de participation. Le président du Centre Stratégique pour la Promotion du Développement Durable et le chef de projet ont également échangé avec les jeunes participants des difficultés et/ ou des problèmes de leurs associations. La réunion a eu lieu le 09 octobre 2022 de 9h30 à 11h30 dans une ambiance d’échange et de bonne humeur dans les locaux de la municipalité d’El Mourouj que nous remercions énormément.",
+	// description: "Dans le cadre du projet « Voler de ses propres ailes », nous avons organisé notre 1ère réunion avec 3 des associations sélectionnées pour communiquer de plus près et leur présenter notre programme de formation et de soutien ainsi que les procédures de participation. Le président du Centre Stratégique pour la Promotion du Développement Durable et le chef de projet ont également échangé avec les jeunes participants des difficultés et/ ou des problèmes de leurs associations. La réunion a eu lieu le 09 octobre 2022 de 9h30 à 11h30 dans une ambiance d’échange et de bonne humeur dans les locaux de la municipalité d’El Mourouj que nous remercions énormément.",
 	buttonLabel: 'Savoir Plus',
 	imgStart: true,
 	img: require('../../images/activites1.jpg').default,
@@ -220,7 +220,8 @@ export const activites1 = {
 	primary: false,
 	darkText: true,
 	needed: true,
-	link: 'https://www.facebook.com/media/set/?vanity=100086344255915&set=a.112308011657340&__cft__[0]=AZVWDtKV0AqoztcQzFAabvvjYHCuFRcJiO3vjkEnJWLd1owzY9UAEQC3WyBwtyGqi-APd1ajhNnG1Tv5ZeTCkMERataDgg7wgFKE3fi2Te6nsZnFIfbhthj2zLGksZqPpsnO6mSAzVhkZa0eOKO2KNOvKaFqiup8fzn66YZS2mI-GWuZgM59jGhjp2J6n8dx-GEjjAHG-DQ-8KdDn4ygOjYI&__tn__=-UC%2CP-y-R'
+	// link: 'https://www.facebook.com/media/set/?vanity=100086344255915&set=a.112308011657340&__cft__[0]=AZVWDtKV0AqoztcQzFAabvvjYHCuFRcJiO3vjkEnJWLd1owzY9UAEQC3WyBwtyGqi-APd1ajhNnG1Tv5ZeTCkMERataDgg7wgFKE3fi2Te6nsZnFIfbhthj2zLGksZqPpsnO6mSAzVhkZa0eOKO2KNOvKaFqiup8fzn66YZS2mI-GWuZgM59jGhjp2J6n8dx-GEjjAHG-DQ-8KdDn4ygOjYI&__tn__=-UC%2CP-y-R'
+	route: "/Activités2_1"
 }
 export const activites2 = {
 	id: 'Activites',
