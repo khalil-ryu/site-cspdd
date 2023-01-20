@@ -28,7 +28,7 @@ export default function Home() {
                         spy={true}
                         exact='true'
                         to="/Annonces2">
-                        Annonces
+                        Voler de ses propres ailes
                     </NavLinksRoute>
             </p>
             <p></p>

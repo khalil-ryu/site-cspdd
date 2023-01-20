@@ -20,7 +20,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
   
 const cards = [
     {   title: "Présentation",
-        subtitle: "Dimanche 11 décembre 2022 dans le cadre du projet Voler de ses propres ailes par le Centre Stratégique Pour La Promotion Du Développement Durable - CSPDD : Démarrage de la 1ère séance de formation sur la réglementation tunisienne en matière de la protection de l'environnement, l'état des lieux de la pollution dans la région de Ben Arous et son impact sur l'écosystème. Cette formation est assurée par Mme Faiza Labidi, expert et auditeur en environnement."}
+        subtitle: "Dimanche 15 janvier, le matin, s'est tenue la 2ème séance de formation en la gouvernance et la démocratie participative avec l'expert Hatem Mliki. Les participants ont eu l'occasion de discuter des idées de projets qui impliquent différents intervenants notamment les autorités locales. Nous avons également visité l'Artisanerie, l'un des projets dans le cadre de l'Economie Sociale et Solidaire par l'association Shanti."}
   ];
 
 let data = [];
