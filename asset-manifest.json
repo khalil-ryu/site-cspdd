@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a15c5ca3.chunk.css",
-    "main.js": "/static/js/main.e61abfbe.chunk.js",
-    "main.js.map": "/static/js/main.e61abfbe.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cfcfc4b7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cfcfc4b7.js.map",
+    "main.css": "/static/css/main.b76f4029.chunk.css",
+    "main.js": "/static/js/main.e8400b0c.chunk.js",
+    "main.js.map": "/static/js/main.e8400b0c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d8491bb7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d8491bb7.js.map",
     "static/css/2.6ef2fac9.chunk.css": "/static/css/2.6ef2fac9.chunk.css",
-    "static/js/2.7aeb3f9e.chunk.js": "/static/js/2.7aeb3f9e.chunk.js",
-    "static/js/2.7aeb3f9e.chunk.js.map": "/static/js/2.7aeb3f9e.chunk.js.map",
-    "static/js/3.035d5d1c.chunk.js": "/static/js/3.035d5d1c.chunk.js",
-    "static/js/3.035d5d1c.chunk.js.map": "/static/js/3.035d5d1c.chunk.js.map",
+    "static/js/2.1fc4dec6.chunk.js": "/static/js/2.1fc4dec6.chunk.js",
+    "static/js/2.1fc4dec6.chunk.js.map": "/static/js/2.1fc4dec6.chunk.js.map",
+    "static/js/3.68ec6290.chunk.js": "/static/js/3.68ec6290.chunk.js",
+    "static/js/3.68ec6290.chunk.js.map": "/static/js/3.68ec6290.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.6ef2fac9.chunk.css.map": "/static/css/2.6ef2fac9.chunk.css.map",
-    "static/css/main.a15c5ca3.chunk.css.map": "/static/css/main.a15c5ca3.chunk.css.map",
-    "static/js/2.7aeb3f9e.chunk.js.LICENSE.txt": "/static/js/2.7aeb3f9e.chunk.js.LICENSE.txt",
+    "static/css/main.b76f4029.chunk.css.map": "/static/css/main.b76f4029.chunk.css.map",
+    "static/js/2.1fc4dec6.chunk.js.LICENSE.txt": "/static/js/2.1fc4dec6.chunk.js.LICENSE.txt",
     "static/media/1-1.85cfb6c2.jpg": "/static/media/1-1.85cfb6c2.jpg",
     "static/media/1.a8cdd906.jpg": "/static/media/1.a8cdd906.jpg",
     "static/media/2-2.0c864b7c.jpg": "/static/media/2-2.0c864b7c.jpg",
@@ -42,14 +42,13 @@
     "static/media/lotfi.jpg": "/static/media/lotfi.23ce883c.jpg",
     "static/media/project2.jpg": "/static/media/project2.f613b5ce.jpg",
     "static/media/seminaire.jpg": "/static/media/seminaire.e1e96f30.jpg",
-    "static/media/video.1c6b32bd.mkv": "/static/media/video.1c6b32bd.mkv",
-    "static/media/voler.png": "/static/media/voler.9ac67716.png"
+    "static/media/video.1c6b32bd.mkv": "/static/media/video.1c6b32bd.mkv"
   },
   "entrypoints": [
-    "static/js/runtime-main.cfcfc4b7.js",
+    "static/js/runtime-main.d8491bb7.js",
     "static/css/2.6ef2fac9.chunk.css",
-    "static/js/2.7aeb3f9e.chunk.js",
-    "static/css/main.a15c5ca3.chunk.css",
-    "static/js/main.e61abfbe.chunk.js"
+    "static/js/2.1fc4dec6.chunk.js",
+    "static/css/main.b76f4029.chunk.css",
+    "static/js/main.e8400b0c.chunk.js"
   ]
 }
