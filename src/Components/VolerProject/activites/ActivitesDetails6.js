@@ -232,6 +232,7 @@ const ActivitesDetails6 = () => {
 						</Column1>
 						<Column2>
 							<ImgWrap>
+                            Cliquer pour agrendir
                             <div className={model ? "model open" : "model"}>
                                 <img src={tempimgSrc} />
                                 <CloseIcon onClick={()=> setModel(false)}/>

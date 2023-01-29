@@ -26,7 +26,7 @@ const cards = [{
   id: 1,
   heading: "1ére rencontre",
   content: "Rencontre avec les associations - 09/10/2022",
-  image:'https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/311140488_112307401657401_1292440017078755254_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=0debeb&_nc_ohc=0pJobVvPjrIAX_koeYH&_nc_ht=scontent.ftun16-1.fna&oh=00_AfBprViJWGxUFr46SyHvas5ukd325tUMGdye3WxyNHv0vg&oe=63C97CF6',
+  image:'https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/9.jpg?raw=true',
   link: "/Activités2_1"
 }, {
   id: 2,
@@ -38,7 +38,7 @@ const cards = [{
   id: 3,
   heading: "Planification Stratégique",
   content: "2ème séance de formation dans le cadre de la 1ère activité intitulée 'Planification stratégique - 20/11/2022",
-  image:"https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/316170645_127952306759577_4535478451849917406_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=tSTYdHHRhtEAX92Ox_B&_nc_ht=scontent.ftun16-1.fna&oh=00_AfASPQxt4uEriLTmUZPBCZH1AmZauCaaTrzUfIcCv-dOLg&oe=63C94301",
+  image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/12.jpg?raw=true",
   link: "/Activités2_3"
 }, {
   id: 4,
@@ -48,28 +48,40 @@ const cards = [{
   link: "/Activités2_4"
 }, {
   id: 5,
-  heading: "Réglementation tunisienne",
-  content: "formation sur la réglementation tunisienne en matière de la protection de l'environnement - 12/11/2022 ",
+  heading: "Réglementation tunisienne en matière de la protection de l'environnement",
+  content: "1ère séance de formation sur la réglementation tunisienne en matière de la protection de l'environnement, l'état des lieux de la pollution dans la région de Ben Arous et son impact sur l'écosystème - 12/11/2022 ",
   image:"https://cspdd.tn/static/media/activites5.c9c2976b.jpg",
   link: "/Activités2_5",
 }, {
   id: 6,
-  heading: "Sortie environnementale",
-  content: "Gouvernorat de Ben Arous - 25/12/2022 ",
+  heading: "Réglementation tunisienne en matière de la protection de l'environnement",
+  content: "2éme séance, sortie environnementale dans le gouvernorat de Ben Arous - 25/12/2022 ",
   image:"https://cspdd.tn/static/media/activites7.91dcd89f.jpg",
   link: "/Activités2_6"
 }, {
+  id: 9,
+  heading: "Journée porte ouverte AJCC X AJIC",
+  content: " l' AJCC Mhamdia جمعية الشباب المبدع و الواعي بالمحمدية et جمعية شباب مبادرون بالخليدية    organisent une journée porte ouverte pour présenter leurs activités et recruter de nouveaux membres et volontaires - 18/12/2022 ",
+  image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/85.jpg?raw=true",
+  link: "/Activités2_9"
+}, {
   id: 6,
-  heading: "Formation",
-  content: "Gouvernance et démocratie participative : 1ère séance - 08/01/2023 ",
-  image:"https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/324656040_446715204197775_7778461632588467381_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SsxqwAB38pgAX9aNZDm&_nc_ht=scontent.ftun16-1.fna&oh=00_AfC0tbVbdOs_xXetvVxZc8148ZlES5RrI-riACRtZFsxWw&oe=63CAF29D",
+  heading: "gouvernance et démocratie participative",
+  content: "1ère séance - 08/01/2023 ",
+  image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/121.jpg?raw=true",
   link: "/Activités2_7"
 },  {
   id: 7,
-  heading: "Formation",
-  content: "Gouvernance et démocratie participative : 2ère séance - 15/01/2023 ",
-  image:"https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/325754820_1330240994486174_2572065701234681696_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=02oMG7vfw2AAX8qAiCN&tn=P2wl8cil6FPw5PnX&_nc_ht=scontent.ftun16-1.fna&oh=00_AfCdLSZXtI9klLzqpL_D6Ow8fCLvtp9IMlE0IptztMnZ5A&oe=63CB46F1",
+  heading: "gouvernance et démocratie participative",
+  content: "2ère séance - 15/01/2023 ",
+  image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/127.jpg?raw=true",
   link: "/Activités2_8"
+},   {
+  id: 10,
+  heading: "Journée portes ouvertes - Association Volonté et Citoyenneté",
+  content: " 21/01/2023 ",
+  image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/133.jpg?raw=true",
+  link: "/Activités2_10"
 }];
 
 const theme = createTheme();
@@ -92,7 +104,7 @@ const Activites2 = () => {
 		<InfoSection {...activites6}/> 
 		<InfoSection {...activites7}/> 
 		<InfoSection {...activites8}/>  */}
-		 <ThemeProvider theme={theme} >
+		<ThemeProvider theme={theme} >
       <CssBaseline  /> 
       <main>
         {/* Hero unit */}
@@ -164,7 +176,6 @@ const Activites2 = () => {
           </Grid>
         </Container>
       </main>
-      
     </ThemeProvider>
 		<Footer/>
 		</>

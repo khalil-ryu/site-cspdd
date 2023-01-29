@@ -10,7 +10,7 @@ export const InfoContainer = styled.div`
 	}
 	@media screen and (max-width: 576px) {
 		padding: 0px 0;
-
+		height: 1000px;	
 	}
 `
 
@@ -253,6 +253,14 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.img`
 	width: 100%
+	margin: 0 0 10px 0;
+	padding-right: 0;
+	@media screen and (max-width: 768px) {
+		
+	}
+`
+export const Img2 = styled.img`
+	width: 50%;
 	margin: 0 0 10px 0;
 	padding-right: 0;
 	@media screen and (max-width: 768px) {

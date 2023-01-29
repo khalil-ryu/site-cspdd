@@ -19,19 +19,18 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
   
 const cards = [
-    {   title: "Présentation",
-        subtitle: "Dimanche 11 décembre 2022 dans le cadre du projet Voler de ses propres ailes par le Centre Stratégique Pour La Promotion Du Développement Durable - CSPDD : Démarrage de la 1ère séance de formation sur la réglementation tunisienne en matière de la protection de l'environnement, l'état des lieux de la pollution dans la région de Ben Arous et son impact sur l'écosystème. Cette formation est assurée par Mme Faiza Labidi, expert et auditeur en environnement."}
+    {   title: "Journée porte ouverte AJCC X AJIC",
+        subtitle: "Bravo aux 2 associations qui ont organisé leur journée porte ouverte en présence du président du  Centre Stratégique Pour La Promotion Du Développement Durable - CSPDD et de la chef du projet Voler de ses propres ailes dans la Maison des Jeunes Fouchana. AJCC Mhamdia جمعية الشباب المبدع و الواعي بالمحمدية et جمعية شباب مبادرون بالخليدية  ont organisé des activités de team building, ont présenté quelques actions qui représentent le mieux leus associations et discuté la possibilité de se rapprocher plus pour travailler sur des projets communs qui auront un impact durable sur toute la région."}
   ];
 
 let data = [];
-for (let i = 72; i < 86; i++) {
-    if (i%2 == 0) {
-        let photo = {};
-        photo["imgSrc"] = `https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/${i}.jpg?raw=true`
-        data.unshift(photo);
-    }
+for (let i = 85; i < 95; i++) {
+    let photo = {};
+    photo["imgSrc"] = `https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/${i}.jpg?raw=true`
+    data.unshift(photo);
+
 }
-const ActivitesDetails5 = () => {
+const ActivitesDetails9 = () => {
 	const[isOpen, setIsOpen] = useState(false);
 
 	const toggle = () => {
@@ -101,4 +100,4 @@ const ActivitesDetails5 = () => {
 		)
 }
 
-export default ActivitesDetails5;
+export default ActivitesDetails9;

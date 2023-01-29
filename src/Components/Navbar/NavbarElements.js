@@ -120,7 +120,7 @@ export const NavLinksRoute = styled(LinkR)`
 	padding: 0 1rem;
 	height: 100%;
 	cursor: pointer;	
-
+	
 	&:hover {
 		background-color: #9CC3D5FF;
 		color: #0063B2FF;

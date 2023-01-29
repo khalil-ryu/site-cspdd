@@ -9,10 +9,10 @@
   @media (max-width: 800px) {
     .panels {
       flex-direction: column;
-      
-    }
-    .panel {
       font-size: 10px;
+    }
+    .panels > .panel {
+      font-size: 8px;
     }
   }
   .panel {
@@ -57,7 +57,6 @@
   .panel.open-active > *:last-child { transform: translateY(0); }
 
   .panel p {
-    text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
     font-size: 1em;

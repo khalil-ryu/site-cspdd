@@ -16,7 +16,14 @@ import { Subtitle1, Heading, TextWrapper,InfoContainer,
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import CloseIcon from '@mui/icons-material/Close';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import Radium, { StyleRoot } from 'radium';
 
+const mystyle = {
+    
+    '@media screen and (max-width: 576px)': {
+        height: "1000px",
+      },
+}
   
 const cards = [
     {   title: "Présentation",
@@ -47,9 +54,9 @@ const ActivitesDetails = () => {
 		<Sidebar isOpen= {isOpen} toggle= {toggle}/>
 		<Navbar toggle= {toggle}/>
         <InfoContainer lightBg={true} id={0}>
-				<InfoWrapper>
+				<InfoWrapper style={mystyle}>
 					<InfoRow imgStart={true}>
-						<Column1>
+						<Column1 >
 							<TextWrapper>
                             <Heading lightText={false}>
                                 {cards[0].heading}
@@ -60,7 +67,8 @@ const ActivitesDetails = () => {
 							</TextWrapper>
 						</Column1>
 						<Column2>
-							<ImgWrap>
+                            <ImgWrap>
+                            Cliquer pour agrendir
                             <div className={model ? "model open" : "model"}>
                                 <img src={tempimgSrc} />
                                 <CloseIcon onClick={()=> setModel(false)}/>

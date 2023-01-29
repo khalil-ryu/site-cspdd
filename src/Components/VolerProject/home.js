@@ -5,16 +5,16 @@ import { NavLinksRoute } from '../Navbar/NavbarElements';
 export default function Home() {
   return (
     <div class="panels">
-        <div class="panel panel1">
+         <div class="panel panel1">
             <p></p>
-            <p> 
+            <p > 
                 <NavLinksRoute 
                         smooth= {true} 
                         duration= {500} 
                         spy={true}
                         exact='true'
-                        to="/Activités2">
-                        Activites
+                        to="/Annonces2">
+                        Voler de ses propres ailes
                     </NavLinksRoute>
             </p>
             <p></p>
@@ -27,12 +27,13 @@ export default function Home() {
                         duration= {500} 
                         spy={true}
                         exact='true'
-                        to="/Annonces2">
-                        Voler de ses propres ailes
+                        to="/Activités2">
+                        Activités
                     </NavLinksRoute>
             </p>
             <p></p>
         </div>
+       
         <div class="panel panel3">
             <p></p>
             <p> 

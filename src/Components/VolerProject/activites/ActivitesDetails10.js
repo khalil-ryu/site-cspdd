@@ -19,19 +19,18 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
   
 const cards = [
-    {   title: "Présentation",
-        subtitle: "Dimanche 11 décembre 2022 dans le cadre du projet Voler de ses propres ailes par le Centre Stratégique Pour La Promotion Du Développement Durable - CSPDD : Démarrage de la 1ère séance de formation sur la réglementation tunisienne en matière de la protection de l'environnement, l'état des lieux de la pollution dans la région de Ben Arous et son impact sur l'écosystème. Cette formation est assurée par Mme Faiza Labidi, expert et auditeur en environnement."}
+    {   title: "",
+        subtitle: "Bravo pour l'association Volonté et Citoyenneté  à Mornag qui a organisé sa journée portes ouvertes en présence Mr Lotfi Ben Maaoui  le président du Centre Stratégique Pour La Promotion Du Développement Durable - CSPDD dans le Centre Fly_High à Mornag. Les membres de l'association ont présenté leurs activités pour les nouveaux adhérents. Merci pour Mme Dorsaf la présidente et le bureau exécutif et tous les membres et adhérents pour leur engagement. "}
   ];
 
 let data = [];
-for (let i = 72; i < 86; i++) {
-    if (i%2 == 0) {
-        let photo = {};
-        photo["imgSrc"] = `https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/${i}.jpg?raw=true`
-        data.unshift(photo);
-    }
+for (let i = 131; i < 136; i++) {
+    let photo = {};
+    photo["imgSrc"] = `https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/${i}.jpg?raw=true`
+    data.unshift(photo);
+
 }
-const ActivitesDetails5 = () => {
+const ActivitesDetails10 = () => {
 	const[isOpen, setIsOpen] = useState(false);
 
 	const toggle = () => {
@@ -101,4 +100,4 @@ const ActivitesDetails5 = () => {
 		)
 }
 
-export default ActivitesDetails5;
+export default ActivitesDetails10;

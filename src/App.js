@@ -26,6 +26,8 @@ import ActivitesDetails5 from './Components/VolerProject/activites/ActivitesDeta
 import ActivitesDetails6 from './Components/VolerProject/activites/ActivitesDetails6';
 import ActivitesDetails7 from './Components/VolerProject/activites/ActivitesDetails7';
 import ActivitesDetails8 from './Components/VolerProject/activites/ActivitesDetails8';
+import ActivitesDetails9 from './Components/VolerProject/activites/ActivitesDetails9';
+import ActivitesDetails10 from './Components/VolerProject/activites/ActivitesDetails10';
 class App extends Component {
 
 
@@ -52,6 +54,9 @@ class App extends Component {
           <Route  path='/Activités2_6' component = {ActivitesDetails6} exact />
           <Route  path='/Activités2_7' component = {ActivitesDetails7} exact />
           <Route  path='/Activités2_8' component = {ActivitesDetails8} exact />
+          <Route  path='/Activités2_9' component = {ActivitesDetails9} exact />
+          <Route  path='/Activités2_10' component = {ActivitesDetails10} exact />
+
           <Route  path='/Articles' component = {Articles} exact />
           <Route  path='/Articles2' component = {Articles2} exact />
           <Route  path='/Galeries' component= {GaleriesPage} exact/>

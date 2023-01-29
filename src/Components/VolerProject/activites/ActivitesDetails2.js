@@ -62,6 +62,7 @@ const ActivitesDetails2 = () => {
 						</Column1>
 						<Column2>
 							<ImgWrap>
+							Cliquer pour agrendir
                                 <Img src="https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/315052142_125024407052367_2241573289619841579_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=PdOm_pNhm8kAX__1F0j&_nc_ht=scontent.ftun16-1.fna&oh=00_AfAB_YqE_p7SbvzT_nrdvC5E4AUOtRrKbyIa-pBMYQs7YQ&oe=63CA4ED4" />
                     
      
