@@ -29,7 +29,7 @@ const cards = [
 
 let data = [];
 let photo = {};
-photo["imgSrc"] = `https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/315052142_125024407052367_2241573289619841579_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=PdOm_pNhm8kAX__1F0j&_nc_ht=scontent.ftun16-1.fna&oh=00_AfAB_YqE_p7SbvzT_nrdvC5E4AUOtRrKbyIa-pBMYQs7YQ&oe=63CA4ED4`
+photo["imgSrc"] = `https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/11.jpg?raw=true`
 data.unshift(photo);
 const ActivitesDetails2 = () => {
 	const[isOpen, setIsOpen] = useState(false);
@@ -58,9 +58,13 @@ const ActivitesDetails2 = () => {
                             </Heading>
                             <Subtitle1 darkText={true}>
                                 {cards[0].subtitle}
-                                <br/>                                <br>
+                                <br/>
+								<br>
                                 </br>
-                                <NavLinksRoute 
+                                
+
+                                <a href='https://fb.watch/i5c07zSH3u/' target='_blank'>Video Live</a>
+								<NavLinksRoute 
                         smooth= {true} 
                         duration= {500} 
                         spy={true}
@@ -70,15 +74,13 @@ const ActivitesDetails2 = () => {
 
 
                    </NavLinksRoute>
-
-                                <a href='https://fb.watch/i5c07zSH3u/' target='_blank'>Video Live</a>
-                            </Subtitle1>							
+							</Subtitle1>							
 							</TextWrapper>
 						</Column1>
-						<Column2>
+						<Column2 >
 							<ImgWrap>
 							Cliquer pour agrendir
-                                <Img src="https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/315052142_125024407052367_2241573289619841579_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=PdOm_pNhm8kAX__1F0j&_nc_ht=scontent.ftun16-1.fna&oh=00_AfAB_YqE_p7SbvzT_nrdvC5E4AUOtRrKbyIa-pBMYQs7YQ&oe=63CA4ED4" />
+                                <Img src="https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/13.jpg?raw=true" />
                     
      
 							</ImgWrap>

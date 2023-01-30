@@ -62,6 +62,9 @@ const ActivitesDetails4 = () => {
                                 {cards[0].subtitle}
                                 <br/>                                <br>
                                 </br>
+                                
+
+                                <a href='https://fb.watch/i5d7j8uITf/' target='_blank' >Video Live</a>
                                 <NavLinksRoute 
                         smooth= {true} 
                         duration= {500} 
@@ -72,12 +75,10 @@ const ActivitesDetails4 = () => {
 
 
                    </NavLinksRoute>
-
-                                <a href='https://fb.watch/i5d7j8uITf/' target='_blank' >Video Live</a>
                             </Subtitle1>							
 							</TextWrapper>
 						</Column1>
-						<Column2>
+						<Column2 >
 							<ImgWrap>
                             Cliquer pour agrendir
                             <div className={model ? "model open" : "model"}>

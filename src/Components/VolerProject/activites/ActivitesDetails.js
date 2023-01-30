@@ -21,9 +21,8 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Radium, { StyleRoot } from 'radium';
 
 const mystyle = {
-    
     '@media screen and (max-width: 576px)': {
-        height: "1000px",
+        alignSelf: "flex-start",
       },
 }
   
@@ -55,9 +54,11 @@ const ActivitesDetails = () => {
 		
 		<Sidebar isOpen= {isOpen} toggle= {toggle}/>
 		<Navbar toggle= {toggle}/>
-        <InfoContainer lightBg={true} id={0}>
-				<InfoWrapper style={mystyle}>
-					<InfoRow imgStart={true}>
+        
+        <InfoContainer lightBg={true} id={0} >
+            
+            <InfoWrapper >            
+        			<InfoRow imgStart={true}>
 						<Column1 >
 							<TextWrapper>
                             <Heading lightText={false}>
@@ -77,13 +78,12 @@ const ActivitesDetails = () => {
 
 
                    </NavLinksRoute>
-
                             </Subtitle1>		
-					
+                            
 							</TextWrapper>
 						</Column1>
-						<Column2>
-                            <ImgWrap>
+						<Column2 >
+                            <ImgWrap >
                             Cliquer pour agrendir
                             <div className={model ? "model open" : "model"}>
                                 <img src={tempimgSrc} />
@@ -113,6 +113,7 @@ const ActivitesDetails = () => {
 						</Column2>
 					</InfoRow>
 				</InfoWrapper>
+                
 			</InfoContainer>
 		<Footer/>
 		</>

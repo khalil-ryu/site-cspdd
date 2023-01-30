@@ -76,7 +76,7 @@ const ActivitesDetails9 = () => {
                             </Subtitle1>							
 							</TextWrapper>
 						</Column1>
-						<Column2>
+						<Column2 >
 							<ImgWrap>
                             Cliquer pour agrendir
                             <div className={model ? "model open" : "model"}>

@@ -92,12 +92,22 @@ const ActivitesDetails6 = () => {
                             <Subtitle1 darkText={true}>
                                 {cards[0].subtitle}
                                 <br/>
+                                <NavLinksRoute 
+                        smooth= {true} 
+                        duration= {500} 
+                        spy={true}
+                        exact='true'
+                        to="/Activités2">
+                         <ArrowBackIcon   fontSize="large" /> <p>Return</p>
+
+
+                   </NavLinksRoute>
                                 <a href='https://fb.watch/i5m4NB-25Y/' target='_blank'>Video Live</a>
 
                             </Subtitle1>							
 							</TextWrapper>
 						</Column1>
-						<Column2>
+						<Column2 >
 							<ImgWrap>
                             <div className={model ? "model open" : "model"}>
                                 <img src={tempimgSrc} />
