@@ -48,6 +48,21 @@ export default function Home() {
             </p>
             <p></p>
         </div>
+        <div class="panel panel4">
+            <p></p>
+            <p> 
+                <NavLinksRoute 
+                        smooth= {true} 
+                        duration= {500} 
+                        spy={true}
+                        exact='true'
+                        to="/Volerannonce">
+                        Annonces
+                    </NavLinksRoute>
+            </p>
+            <p></p>
+        </div>
+
     </div>
   )
 }

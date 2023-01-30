@@ -4,6 +4,8 @@ import Navbar from '../../Navbar';
 import Footer from '../../Footer';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
+import { NavLinksRoute } from '../../Navbar/NavbarElements';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { Subtitle1, Heading, TextWrapper,InfoContainer,
 	InfoWrapper,
 	InfoRow,
@@ -58,7 +60,19 @@ const ActivitesDetails4 = () => {
                             </Heading>
                             <Subtitle1 darkText={true}>
                                 {cards[0].subtitle}
-                                <br/>
+                                <br/>                                <br>
+                                </br>
+                                <NavLinksRoute 
+                        smooth= {true} 
+                        duration= {500} 
+                        spy={true}
+                        exact='true'
+                        to="/Activités2">
+                         <ArrowBackIcon   fontSize="large" /> <p>Return</p>
+
+
+                   </NavLinksRoute>
+
                                 <a href='https://fb.watch/i5d7j8uITf/' target='_blank' >Video Live</a>
                             </Subtitle1>							
 							</TextWrapper>

@@ -48,14 +48,14 @@ const cards = [{
   link: "/Activités2_4"
 }, {
   id: 5,
-  heading: "Réglementation tunisienne en matière de la protection de l'environnement",
-  content: "1ère séance de formation sur la réglementation tunisienne en matière de la protection de l'environnement, l'état des lieux de la pollution dans la région de Ben Arous et son impact sur l'écosystème - 12/11/2022 ",
+  heading: "Environnement / la pollution G.Ben Arous",
+  content: " la réglementation tunisienne en matière de la protection de l'environnement :séance 1",
   image:"https://cspdd.tn/static/media/activites5.c9c2976b.jpg",
   link: "/Activités2_5",
 }, {
   id: 6,
-  heading: "Réglementation tunisienne en matière de la protection de l'environnement",
-  content: "2éme séance, sortie environnementale dans le gouvernorat de Ben Arous - 25/12/2022 ",
+  heading: "Environnement / la pollution G.Ben Arous",
+  content: " la réglementation tunisienne en matière de la protection de l'environnement :séance 2",
   image:"https://cspdd.tn/static/media/activites7.91dcd89f.jpg",
   link: "/Activités2_6"
 }, {
