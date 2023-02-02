@@ -48,26 +48,26 @@ const cards = [{
   link: "/Activités2_4"
 }, {
   id: 5,
-  heading: "Environnement / la pollution G.Ben Arous",
-  content: " la réglementation tunisienne en matière de la protection de l'environnement :séance 1",
+  heading: "Environnement / la pollution dans le G.Ben Arous",
+  content: "la réglementation tunisienne en matière de la protection de l'environnement séance 1",
   image:"https://cspdd.tn/static/media/activites5.c9c2976b.jpg",
   link: "/Activités2_5",
 }, {
   id: 6,
-  heading: "Environnement / la pollution G.Ben Arous",
-  content: " la réglementation tunisienne en matière de la protection de l'environnement :séance 2",
+  heading: "Environnement / la pollution dans le G.Ben Arous",
+  content: "sortie environnementale séance 2",
   image:"https://cspdd.tn/static/media/activites7.91dcd89f.jpg",
   link: "/Activités2_6"
 }, {
   id: 9,
-  heading: "Journée porte ouverte AJCC X AJIC",
+  heading: "Journée porte ouverte AJCC X AJIK",
   content: " l' AJCC Mhamdia جمعية الشباب المبدع و الواعي بالمحمدية et جمعية شباب مبادرون بالخليدية    organisent une journée porte ouverte pour présenter leurs activités et recruter de nouveaux membres et volontaires - 18/12/2022 ",
   image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/85.jpg?raw=true",
   link: "/Activités2_9"
 }, {
   id: 6,
   heading: "gouvernance et démocratie participative",
-  content: "1ère séance - 08/01/2023 ",
+  content: "1ère séance - la différence entre gestion et gouvernance - 08/01/2023 ",
   image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/121.jpg?raw=true",
   link: "/Activités2_7"
 },  {
@@ -82,6 +82,12 @@ const cards = [{
   content: " 21/01/2023 ",
   image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/133.jpg?raw=true",
   link: "/Activités2_10"
+},  {
+  id: 11,
+  heading: "Formation en économie sociale et solidaire",
+  content: " Séance 1 - 29/01/2023 ",
+  image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/140.jpg?raw=true",
+  link: "/Activités2_11"
 }];
 
 const theme = createTheme();

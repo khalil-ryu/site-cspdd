@@ -22,18 +22,19 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
   
 const cards = [
-    {   title: "Présentation",
-        subtitle: "Dimanche 15 janvier, le matin, s'est tenue la 2ème séance de formation en la gouvernance et la démocratie participative avec l'expert Hatem Mliki. Les participants ont eu l'occasion de discuter des idées de projets qui impliquent différents intervenants notamment les autorités locales. Nous avons également visité l'Artisanerie, l'un des projets dans le cadre de l'Economie Sociale et Solidaire par l'association Shanti."}
+    {   title: "",
+        subtitle: "Formation en Économie Sociale et Solidaire/ESS avec l'experte Lobna Saidi . Séance 1: introduction générale aux notions, principes et valeurs de 'ESS"}
   ];
 
 let data = [];
-for (let i = 122; i < 131; i++) {
+for (let i = 137; i < 145; i++) {
+    if (i%2 == 0) continue;
     let photo = {};
     photo["imgSrc"] = `https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/${i}.jpg?raw=true`
     data.unshift(photo);
 
 }
-const ActivitesDetails8 = () => {
+const ActivitesDetails11 = () => {
 	const[isOpen, setIsOpen] = useState(false);
 
 	const toggle = () => {
@@ -62,7 +63,7 @@ const ActivitesDetails8 = () => {
                                 {cards[0].subtitle}
                                 <br/>                                <br>
                                 </br>
-                                <a href='https://fb.watch/i5nYbnbyDb/' target='_blank'>Video Live</a>
+                                <a href='https://fb.watch/iqtc7H2Pm8/' target='_blank'>Video Live</a>
 
                                 <NavLinksRoute 
                         smooth= {true} 
@@ -70,7 +71,7 @@ const ActivitesDetails8 = () => {
                         spy={true}
                         exact='true'
                         to="/Activités2">
-                         <ArrowBackIcon   fontSize="large" /> <p>Return</p>
+                         <ArrowBackIcon   fontSize="large"  /> <p>Return</p>
 
 
                    </NavLinksRoute>
@@ -78,7 +79,7 @@ const ActivitesDetails8 = () => {
                             </Subtitle1>							
 							</TextWrapper>
 						</Column1>
-						<Column2>
+						<Column2 >
 							<ImgWrap>
                             Cliquer pour agrendir
                             <div className={model ? "model open" : "model"}>
@@ -117,4 +118,4 @@ const ActivitesDetails8 = () => {
 		)
 }
 
-export default ActivitesDetails8;
+export default ActivitesDetails11;
