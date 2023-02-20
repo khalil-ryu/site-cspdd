@@ -85,9 +85,27 @@ const cards = [{
 },  {
   id: 11,
   heading: "Formation en économie sociale et solidaire",
-  content: " Séance 1 - 29/01/2023 ",
+  content: "1ére Séance  - 29/01/2023 ",
   image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/140.jpg?raw=true",
   link: "/Activités2_11"
+},  {
+  id: 12,
+  heading: "Formation en économie sociale et solidaire",
+  content: "2éme séance  - 05/02/2023 ",
+  image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/148.jpg?raw=true",
+  link: "/Activités2_12"
+},  {
+  id: 13,
+  heading: "Visite de Douar Laroussi à Sidi Jedidi",
+  content: " 12/02/2023 ",
+  image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/152.jpg?raw=true",
+  link: "/Activités2_13"
+},  {
+  id: 14,
+  heading: "Environnement / la pollution dans le G.Ben Arous",
+  content: "3ème séance de formation en environnement  - 19/02/2023 ",
+  image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/155.jpg?raw=true",
+  link: "/Activités2_14"
 }];
 
 const theme = createTheme();

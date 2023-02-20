@@ -31,6 +31,10 @@ import ActivitesDetails10 from './Components/VolerProject/activites/ActivitesDet
 import Volerannonce from './Components/VolerProject/Volerannonce';
 import Annoncesd2 from './pages/Annoncesd2';
 import ActivitesDetails11 from './Components/VolerProject/activites/ActivitesDetails11';
+import ActivitesDetails12 from './Components/VolerProject/activites/ActivitesDetails12';
+import AnnoncesRedirection from './pages/AnnoncesRedirection';
+import ActivitesDetails13 from './Components/VolerProject/activites/ActivitesDetails13';
+import ActivitesDetails14 from './Components/VolerProject/activites/ActivitesDetails14';
 
 class App extends Component {
 
@@ -45,9 +49,9 @@ class App extends Component {
           <Route  path='/contact' component = {ContactForm} exact />
           <Route  path='/NosProjets' component = {NosProjets} exact />
           <Route  path='/Projet2' component = {VolerPage} exact />
-          <Route  path='/Annoncesd2' component = {Annoncesd2} exact />
-          <Route  path='/Annonces' component = {Annonces} exact />
           <Route  path='/Annonces2' component = {Annonces2} exact />
+          <Route  path='/Annonces' component = {AnnoncesRedirection} exact />
+          <Route  path='/AnnoncesProj' component = {Annonces} exact />
           <Route  path='/Volerannonce' component = {Volerannonce} exact />
 
           <Route  path='/Activités' component = {Activites} exact />
@@ -63,6 +67,9 @@ class App extends Component {
           <Route  path='/Activités2_9' component = {ActivitesDetails9} exact />
           <Route  path='/Activités2_10' component = {ActivitesDetails10} exact />
           <Route  path='/Activités2_11' component = {ActivitesDetails11} exact />
+          <Route  path='/Activités2_12' component = {ActivitesDetails12} exact />
+          <Route  path='/Activités2_13' component = {ActivitesDetails13} exact />
+          <Route  path='/Activités2_14' component = {ActivitesDetails14} exact />
 
           <Route  path='/Articles' component = {Articles} exact />
           <Route  path='/Articles2' component = {Articles2} exact />

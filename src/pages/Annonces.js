@@ -3,19 +3,10 @@ import {Sidebar} from '../Components/Sidebar/index';
 import Navbar	 from '../Components/Navbar/index';
 import Footer	 from '../Components/Footer/index';
 import annonceRecrutement from './annonceRecrutement.jpg';
-import first from '../images/1.jpg';
-import first_1 from '../images/1-1.jpg';
-import second from '../images/2.jpg';
-
-import second_2 from '../images/2-2.jpg';
-
-import third from '../images/3.jpg';
 
 
 import styled from 'styled-components';
-import {
-	ColoredHeading
-} from '../Components/InfoSection/InfoElements';
+
 export const ServicesCard = styled.div`
 	background:  #9CC3D5FF;
 	display: flex;
@@ -56,21 +47,7 @@ const Annonces = () => {
 		<Sidebar isOpen = {isOpen} toggle= {toggle}/>
 		<Navbar toggle = {toggle}/>
         
-        <ServicesCard >
-			<ServicesIcon src={third}/>
-		</ServicesCard>
-		<ServicesCard >
-			<ServicesIcon src={second}/>
-		</ServicesCard>
-        <ServicesCard >
-			<ServicesIcon src={second_2}/>
-		</ServicesCard>
-        <ServicesCard >
-			<ServicesIcon src={first}/>
-		</ServicesCard>
-		<ServicesCard >
-			<ServicesIcon src={first_1}/>
-		</ServicesCard>
+        
         <ServicesCard >
 			<ServicesIcon src={annonceRecrutement}/>
 		</ServicesCard>

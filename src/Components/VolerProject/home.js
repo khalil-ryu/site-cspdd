@@ -13,7 +13,7 @@ export default function Home() {
                         duration= {500} 
                         spy={true}
                         exact='true'
-                        to="/Annonces2">
+                        to="/annonces2">
                         Voler de ses propres ailes
                     </NavLinksRoute>
             </p>

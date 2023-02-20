@@ -17,8 +17,7 @@ const Annonces2 = () => {
 	return(	
 		<>
 		<Sidebar isOpen= {isOpen} toggle= {toggle}/>
-		<Navbar toggle= {toggle}/>
-		
+		<Navbar toggle= {toggle}/>	
 		<InfoSection4 {...annonces1}/>
 		
 		

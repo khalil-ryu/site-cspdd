@@ -74,7 +74,7 @@ const Navbar = ({toggle}) => {
 							</NavLinksRoute>
 						</NavItem>
 						<NavItem>
-							<NavLinksRoute to='/Annoncesd2'
+							<NavLinksRoute to='/Annonces'
 							smooth= {true} duration= {500} spy={true} exact='true'>
 							Annonces
 							</NavLinksRoute>
