@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import { Sidebar } from '../../Sidebar';
-import Navbar from '../../Navbar';
-import Footer from '../../Footer';
+import { Sidebar } from '../../Components/Sidebar';
+import Navbar from '../../Components/Navbar';
+import Footer from '../../Components/Footer';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import { NavLinksRoute } from '../../Navbar/NavbarElements';
+import { NavLinksRoute } from '../../Components/Navbar/NavbarElements';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { Subtitle1, Heading, TextWrapper,InfoContainer,
 	InfoWrapper,
@@ -14,25 +14,32 @@ import { Subtitle1, Heading, TextWrapper,InfoContainer,
 	TopLine,
 	BtnWrap,
 	ImgWrap,
-	 } from '../../InfoSection/InfoElements';
+	 } from '../../Components/InfoSection/InfoElements';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import CloseIcon from '@mui/icons-material/Close';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import Radium, { StyleRoot } from 'radium';
+import { details } from '../activitiesDetails';
+const mystyle = {
+    '@media screen and (max-width: 576px)': {
+        alignSelf: "flex-start",
+      },
+}
   
+
 const cards = [
-    {   title: "",
-        subtitle: "Dimanche 12/02/2023: visite de Douar Laroussi à Sidi Jedidi: présentation du projet par le jeune Laroussi, histoire de famille, domaines d'activités, principes, gestion + Travail de groupes avec le formateur Sofien Neifoss Asta  sur les idées de projets que les associations vont présenter le 12/03/2023. Brunch et temps pour divertissement à Hammamet Sud"}
+    {   title: "Présentation",
+        subtitle: "Le 16.10.2021 une journée exceptionnelle au lycée Ibn Sina Menzel Bourguiba sous la direction du directeur Mr Adel Ounissi ,la surveillante générale Mme Nadia ,le jeune professeur engagé Mr Youssef Saidi ,des jeunes très interactifs avec notre projet cofinancé par UE. Dr  Faiza Labidi chef du projet a créé une ambiance générale et un atmosphère favorable pour bien transmettre le message ce qui a encouragé les élèves à intervenir et participer dans la discussion. Tous ceci a été en présence du monsieur le président Lotfi Ben Maaoui."
+    }
   ];
 
 let data = [];
-for (let i = 152; i < 155; i++) {
+for (let i = 48; i < 51; i++) {
     let photo = {};
-    photo["imgSrc"] = `https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/${i}.jpg?raw=true`
+    photo["imgSrc"] = `Le 8.10.2021 formation sur la pollution pour le groupe des élèves du collège Menzel Jemil dans le cadre du projet cofinancé par l'UE. Dr Faiza Laabidi chef du projet a assuré cette formation avec des interactions pertinentes avec les élèves très motivés pour devenir des acteurs majeurs dans la préservation de l'environnement dans leurs régions. Des tee shirts, casquettes, stylos et cahiers ont été distribués aux élèves lors de la pause café dans une ambiance très conviviale.https://raw.githubusercontent.com/khalil-ryu/cspdd-images/master/project_one_remake/${i}.jpg?raw=true`
     data.unshift(photo);
-
 }
-const ActivitesDetails13 = () => {
+const Activité19 = () => {
 	const[isOpen, setIsOpen] = useState(false);
 
 	const toggle = () => {
@@ -49,34 +56,36 @@ const ActivitesDetails13 = () => {
 		
 		<Sidebar isOpen= {isOpen} toggle= {toggle}/>
 		<Navbar toggle= {toggle}/>
-        <InfoContainer lightBg={true} id={0}>
-				<InfoWrapper>
-					<InfoRow imgStart={true}>
-						<Column1>
+        
+        <InfoContainer lightBg={true} id={0} >
+            
+            <InfoWrapper >            
+        			<InfoRow imgStart={true}>
+						<Column1 >
 							<TextWrapper>
                             <Heading lightText={false}>
                                 {cards[0].heading}
                             </Heading>
                             <Subtitle1 darkText={true}>
                                 {cards[0].subtitle}
-                                <br/>                                <br>
+                                <br>
                                 </br>
                                 <NavLinksRoute 
                         smooth= {true} 
                         duration= {500} 
                         spy={true}
                         exact='true'
-                        to="/Activités2">
-                         <ArrowBackIcon   fontSize="large"  /> <p>Return</p>
+                        to="/Activités">
+                         <ArrowBackIcon   fontSize="large" /> <p>Return</p>
 
 
                    </NavLinksRoute>
-
-                            </Subtitle1>							
+                            </Subtitle1>		
+                            
 							</TextWrapper>
 						</Column1>
 						<Column2 >
-							<ImgWrap>
+                            <ImgWrap >
                             Cliquer pour agrendir
                             <div className={model ? "model open" : "model"}>
                                 <img src={tempimgSrc} />
@@ -106,12 +115,11 @@ const ActivitesDetails13 = () => {
 						</Column2>
 					</InfoRow>
 				</InfoWrapper>
+                
 			</InfoContainer>
-        
-        
 		<Footer/>
 		</>
 		)
 }
 
-export default ActivitesDetails13;
+export default Activité19;

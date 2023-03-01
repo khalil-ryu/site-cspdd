@@ -22,17 +22,17 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
   
 const cards = [
     {   title: "",
-        subtitle: "Dimanche 12/02/2023: visite de Douar Laroussi à Sidi Jedidi: présentation du projet par le jeune Laroussi, histoire de famille, domaines d'activités, principes, gestion + Travail de groupes avec le formateur Sofien Neifoss Asta  sur les idées de projets que les associations vont présenter le 12/03/2023. Brunch et temps pour divertissement à Hammamet Sud"}
+        subtitle: "26/02/2023 - Séance de formation avec Mr Zribi Mahmoud, commissaire au compte : cadre juridique, financement public, tenue fiscale, avantages fiscaux"}
   ];
 
 let data = [];
-for (let i = 152; i < 155; i++) {
+for (let i = 158; i < 161; i++) {
     let photo = {};
     photo["imgSrc"] = `https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/${i}.jpg?raw=true`
     data.unshift(photo);
 
 }
-const ActivitesDetails13 = () => {
+const ActivitesDetails15 = () => {
 	const[isOpen, setIsOpen] = useState(false);
 
 	const toggle = () => {
@@ -114,4 +114,4 @@ const ActivitesDetails13 = () => {
 		)
 }
 
-export default ActivitesDetails13;
+export default ActivitesDetails15;

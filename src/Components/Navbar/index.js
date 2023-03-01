@@ -61,6 +61,7 @@ const Navbar = ({toggle}) => {
 							Activités
 							</NavLinksRoute>
 						</NavItem>
+
 						<NavItem>
 							<NavLinksRoute to='/NosProjets'
 							smooth= {true} duration= {500} spy={true} exact='true' >

@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import { Sidebar } from '../../Sidebar';
-import Navbar from '../../Navbar';
-import Footer from '../../Footer';
+import { Sidebar } from '../../Components/Sidebar';
+import Navbar from '../../Components/Navbar';
+import Footer from '../../Components/Footer';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import { NavLinksRoute } from '../../Navbar/NavbarElements';
+import { NavLinksRoute } from '../../Components/Navbar/NavbarElements';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { Subtitle1, Heading, TextWrapper,InfoContainer,
 	InfoWrapper,
@@ -14,25 +14,32 @@ import { Subtitle1, Heading, TextWrapper,InfoContainer,
 	TopLine,
 	BtnWrap,
 	ImgWrap,
-	 } from '../../InfoSection/InfoElements';
+	 } from '../../Components/InfoSection/InfoElements';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import CloseIcon from '@mui/icons-material/Close';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import Radium, { StyleRoot } from 'radium';
+import { details } from '../activitiesDetails';
+const mystyle = {
+    '@media screen and (max-width: 576px)': {
+        alignSelf: "flex-start",
+      },
+}
   
+
 const cards = [
-    {   title: "",
-        subtitle: "Dimanche 12/02/2023: visite de Douar Laroussi à Sidi Jedidi: présentation du projet par le jeune Laroussi, histoire de famille, domaines d'activités, principes, gestion + Travail de groupes avec le formateur Sofien Neifoss Asta  sur les idées de projets que les associations vont présenter le 12/03/2023. Brunch et temps pour divertissement à Hammamet Sud"}
+    {   title: "Présentation",
+        subtitle: "Le 13.11.21dans le cadre du projet sur la sensibilisation et l'éducation environnementale cofinancé par l'UE,  a eu le formation sur la communication au collège Ibn Charaf à Menzel Bourguiba avec Dr Mohamed M'Chirgui . 31 élèves et la directrice du collège, Mme Houda Baccouri, ont participé à cette formation avec beaucoup d'intérêt. Des interactions ont eu lieu entre participants et  formateur ce qui a permis une meilleure compréhension de la thématique et saisir son importance dans leur vie scolaire et extra-scolaire. L'évaluation de la formation par les élèves a donné un taux de satisfaction de 80%. Les quiz distribués aux élèves pour évaluer leur degré de compréhension de la formation a donné un taux de réussite de 80%. Cette formation a été fructueuse et d'un grand intérêt aux participants. Bravo à tous les participants et félicitations pour votre sérieux et implication !!"
+    }
   ];
 
 let data = [];
-for (let i = 152; i < 155; i++) {
+for (let i = 72; i < 75; i++) {
     let photo = {};
-    photo["imgSrc"] = `https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/${i}.jpg?raw=true`
+    photo["imgSrc"] = `https://raw.githubusercontent.com/khalil-ryu/cspdd-images/master/project_one_remake/${i}.jpg?raw=true`
     data.unshift(photo);
-
 }
-const ActivitesDetails13 = () => {
+const Activité28 = () => {
 	const[isOpen, setIsOpen] = useState(false);
 
 	const toggle = () => {
@@ -49,34 +56,36 @@ const ActivitesDetails13 = () => {
 		
 		<Sidebar isOpen= {isOpen} toggle= {toggle}/>
 		<Navbar toggle= {toggle}/>
-        <InfoContainer lightBg={true} id={0}>
-				<InfoWrapper>
-					<InfoRow imgStart={true}>
-						<Column1>
+        
+        <InfoContainer lightBg={true} id={0} >
+            
+            <InfoWrapper >            
+        			<InfoRow imgStart={true}>
+						<Column1 >
 							<TextWrapper>
                             <Heading lightText={false}>
                                 {cards[0].heading}
                             </Heading>
                             <Subtitle1 darkText={true}>
                                 {cards[0].subtitle}
-                                <br/>                                <br>
+                                <br>
                                 </br>
                                 <NavLinksRoute 
                         smooth= {true} 
                         duration= {500} 
                         spy={true}
                         exact='true'
-                        to="/Activités2">
-                         <ArrowBackIcon   fontSize="large"  /> <p>Return</p>
+                        to="/Activités">
+                         <ArrowBackIcon   fontSize="large" /> <p>Return</p>
 
 
                    </NavLinksRoute>
-
-                            </Subtitle1>							
+                            </Subtitle1>		
+                            
 							</TextWrapper>
 						</Column1>
 						<Column2 >
-							<ImgWrap>
+                            <ImgWrap >
                             Cliquer pour agrendir
                             <div className={model ? "model open" : "model"}>
                                 <img src={tempimgSrc} />
@@ -106,12 +115,11 @@ const ActivitesDetails13 = () => {
 						</Column2>
 					</InfoRow>
 				</InfoWrapper>
+                
 			</InfoContainer>
-        
-        
 		<Footer/>
 		</>
 		)
 }
 
-export default ActivitesDetails13;
+export default Activité28;

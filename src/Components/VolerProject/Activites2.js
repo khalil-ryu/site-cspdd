@@ -106,7 +106,15 @@ const cards = [{
   content: "3ème séance de formation en environnement  - 19/02/2023 ",
   image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/155.jpg?raw=true",
   link: "/Activités2_14"
-}];
+},{
+  id: 15,
+  heading: "Formation sur le financement public et fiscalité",
+  content: "26/02/2023  ",
+  image:"https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/158.jpg?raw=true",
+  link: "/Activités2_15"
+}
+
+];
 
 const theme = createTheme();
 const Activites2 = () => {

@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import { Sidebar } from '../../Sidebar';
-import Navbar from '../../Navbar';
-import Footer from '../../Footer';
+import { Sidebar } from '../../Components/Sidebar';
+import Navbar from '../../Components/Navbar';
+import Footer from '../../Components/Footer';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import { NavLinksRoute } from '../../Navbar/NavbarElements';
+import { NavLinksRoute } from '../../Components/Navbar/NavbarElements';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { Subtitle1, Heading, TextWrapper,InfoContainer,
 	InfoWrapper,
@@ -14,25 +14,32 @@ import { Subtitle1, Heading, TextWrapper,InfoContainer,
 	TopLine,
 	BtnWrap,
 	ImgWrap,
-	 } from '../../InfoSection/InfoElements';
+	 } from '../../Components/InfoSection/InfoElements';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import CloseIcon from '@mui/icons-material/Close';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import Radium, { StyleRoot } from 'radium';
+import { details } from '../activitiesDetails';
+const mystyle = {
+    '@media screen and (max-width: 576px)': {
+        alignSelf: "flex-start",
+      },
+}
   
+
 const cards = [
-    {   title: "",
-        subtitle: "Dimanche 12/02/2023: visite de Douar Laroussi à Sidi Jedidi: présentation du projet par le jeune Laroussi, histoire de famille, domaines d'activités, principes, gestion + Travail de groupes avec le formateur Sofien Neifoss Asta  sur les idées de projets que les associations vont présenter le 12/03/2023. Brunch et temps pour divertissement à Hammamet Sud"}
+    {   title: "Présentation",
+        subtitle: "Le 22.10.2021 à 13h au lycée Menzel jemil avec des élèves engagés pour poursuivre la formation de la pollution du projet cofinancé avec UE. Trois heures dans une ambiance agréable ,interactives avec  Dr Faiza Labidi la cheffe du projet qui a assuré cette formation ,en présence  du Président du CSPDD Mr Ben Maaoui Lotfi . Par la même occasion ,nos sincères remerciements pour Mr Kaies Mazhoudi pour son assistance et accompagnement pour la réussite du projet ."
+    }
   ];
 
 let data = [];
-for (let i = 152; i < 155; i++) {
+for (let i = 54; i < 57; i++) {
     let photo = {};
-    photo["imgSrc"] = `https://github.com/khalil-ryu/cspdd-images/blob/master/project-two/${i}.jpg?raw=true`
+    photo["imgSrc"] = `https://raw.githubusercontent.com/khalil-ryu/cspdd-images/master/project_one_remake/${i}.jpg?raw=true`
     data.unshift(photo);
-
 }
-const ActivitesDetails13 = () => {
+const Actvité21 = () => {
 	const[isOpen, setIsOpen] = useState(false);
 
 	const toggle = () => {
@@ -49,34 +56,36 @@ const ActivitesDetails13 = () => {
 		
 		<Sidebar isOpen= {isOpen} toggle= {toggle}/>
 		<Navbar toggle= {toggle}/>
-        <InfoContainer lightBg={true} id={0}>
-				<InfoWrapper>
-					<InfoRow imgStart={true}>
-						<Column1>
+        
+        <InfoContainer lightBg={true} id={0} >
+            
+            <InfoWrapper >            
+        			<InfoRow imgStart={true}>
+						<Column1 >
 							<TextWrapper>
                             <Heading lightText={false}>
                                 {cards[0].heading}
                             </Heading>
                             <Subtitle1 darkText={true}>
                                 {cards[0].subtitle}
-                                <br/>                                <br>
+                                <br>
                                 </br>
                                 <NavLinksRoute 
                         smooth= {true} 
                         duration= {500} 
                         spy={true}
                         exact='true'
-                        to="/Activités2">
-                         <ArrowBackIcon   fontSize="large"  /> <p>Return</p>
+                        to="/Activités">
+                         <ArrowBackIcon   fontSize="large" /> <p>Return</p>
 
 
                    </NavLinksRoute>
-
-                            </Subtitle1>							
+                            </Subtitle1>		
+                            
 							</TextWrapper>
 						</Column1>
 						<Column2 >
-							<ImgWrap>
+                            <ImgWrap >
                             Cliquer pour agrendir
                             <div className={model ? "model open" : "model"}>
                                 <img src={tempimgSrc} />
@@ -106,12 +115,11 @@ const ActivitesDetails13 = () => {
 						</Column2>
 					</InfoRow>
 				</InfoWrapper>
+                
 			</InfoContainer>
-        
-        
 		<Footer/>
 		</>
 		)
 }
 
-export default ActivitesDetails13;
+export default Actvité21;

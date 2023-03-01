@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import { Sidebar } from '../../Sidebar';
-import Navbar from '../../Navbar';
-import Footer from '../../Footer';
+import { Sidebar } from '../../Components/Sidebar';
+import Navbar from '../../Components/Navbar';
+import Footer from '../../Components/Footer';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import { NavLinksRoute } from '../../Navbar/NavbarElements';
+import { NavLinksRoute } from '../../Components/Navbar/NavbarElements';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { Subtitle1, Heading, TextWrapper,InfoContainer,
 	InfoWrapper,
@@ -14,7 +14,7 @@ import { Subtitle1, Heading, TextWrapper,InfoContainer,
 	TopLine,
 	BtnWrap,
 	ImgWrap,
-	 } from '../../InfoSection/InfoElements';
+	 } from '../../Components/InfoSection/InfoElements';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import CloseIcon from '@mui/icons-material/Close';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -27,10 +27,15 @@ const mystyle = {
 }
   
 
-data = details[0];
-for (let i = data.id ; i < data.id + 2; i++) {
+const cards = [
+    {   title: "Présentation",
+        subtitle: "La cérémonie de signature du contrat de financement de notre projet a eu lieu le 30 Mars au siège de l'UGPO en présence de tous les bénéficiaires ainsi que des représentants du ministère."}
+  ];
+
+let data = [];
+for (let i = 1; i < 3; i++) {
     let photo = {};
-    photo["imgSrc"] = `https://github.com/khalil-ryu/cspdd-images/blob/master/project_one_remake/${i}.jpg?raw=true`
+    photo["imgSrc"] = `https://raw.githubusercontent.com/khalil-ryu/cspdd-images/master/project_one_remake/${i}.jpg?raw=true`
     data.unshift(photo);
 }
 const Activité1 = () => {
@@ -69,7 +74,7 @@ const Activité1 = () => {
                         duration= {500} 
                         spy={true}
                         exact='true'
-                        to="/Activités2">
+                        to="/Activités">
                          <ArrowBackIcon   fontSize="large" /> <p>Return</p>
 
 
