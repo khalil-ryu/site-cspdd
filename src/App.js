@@ -112,6 +112,9 @@ import Activité68 from './pages/projectOneDetails/Activité68';
 import Activité69 from './pages/projectOneDetails/Activité69';
 import Activité70 from './pages/projectOneDetails/Activité70';
 import ActivitesDetails15 from './Components/VolerProject/activites/ActivitesDetails15';
+import ActivitesChoice from './Components/Navbar/ActivitesChoice';
+import ProjetsChoice from './Components/Navbar/ProjetsChoice';
+import ArticlesChoice from './Components/Navbar/ArticlesChoice';
 
 
 class App extends Component {
@@ -133,6 +136,10 @@ class App extends Component {
           <Route  path='/Volerannonce' component = {Volerannonce} exact />
 
           <Route  path='/Activités' component = {Activites} exact />
+          <Route  path='/ActivitésChoice' component = {ActivitesChoice} exact />
+          <Route  path='/ProjetsChoice' component = {ProjetsChoice} exact />
+          <Route  path='/ArticlesChoice' component = {ArticlesChoice} exact />
+
           <Route  path='/Activités1_1' component = {Activité1} exact />
           <Route  path='/Activités1_01' component = {Activité01} exact />
           <Route  path='/Activités1_2' component = {Activité2} exact />

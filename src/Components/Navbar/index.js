@@ -56,20 +56,20 @@ const Navbar = ({toggle}) => {
 							</NavLinksRoute>
 						</NavItem>
 						<NavItem >
-							<NavLinksRoute to='/Activités'
+							<NavLinksRoute to='/ActivitésChoice'
 							smooth= {true} duration= {500} spy={true} exact='true' >
 							Activités
 							</NavLinksRoute>
 						</NavItem>
 
 						<NavItem>
-							<NavLinksRoute to='/NosProjets'
+							<NavLinksRoute to='/ProjetsChoice'
 							smooth= {true} duration= {500} spy={true} exact='true' >
-							<Dropdown2/>
+							Nos Projets
 							</NavLinksRoute>
 						</NavItem>
 						<NavItem>
-							<NavLinksRoute to='/Articles'
+							<NavLinksRoute to='/ArticlesChoice'
 							smooth= {true} duration= {500} spy={true} exact='true'>
 							Articles
 							</NavLinksRoute>
